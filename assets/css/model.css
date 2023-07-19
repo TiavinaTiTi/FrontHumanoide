@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-VariableFont_wght.ttf') format('truetype');
+    /* Ajoutez d'autres formats si nécessaire */
+    /* Vous pouvez également spécifier les styles de police supplémentaires */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+    /* Ajoutez d'autres formats si nécessaire */
+    /* Vous pouvez également spécifier les styles de police supplémentaires */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.circle-img::before{
+    content: "";
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: #00000009;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
